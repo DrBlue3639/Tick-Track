@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Use of meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the page -->
+    <title>About Us</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <script src="../JS/Brain.js"></script>
+    <link rel="stylesheet" href="../fonts&icons/all_icons/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar of About Us page -->
+    <div id="navbar">
+
+        <!-- Use of inline CSS -->
+        <!-- Due to this anchor tag in logo section when clicked on it, it returns us to home page -->
+        <a style="text-decoration: none;" href="Home.html">
+            <div id="logo">
+                <img src="../images/logo/bonsai.png" alt="logo">
+                <h3>Bonsai Blooms</h3>
+            </div>
+        </a>
+
+        <!-- links of main pages in the navigation bar -->
+        <div id="bar">
+            <ul>
+                <a href="Home.html"><li class="navs"> Home </li></a>
+                <a href="Product.html"><li class="navs"> Products</li></a>
+                <a href="Blog.html"><li class="navs">Blog</li></a>
+                <a href="Research.html"><li class="navs"> Research</li></a>
+                <a href="About Us.html"><li class="navs">About Us</li></a>
+            </ul>
+        </div>
+
+        <!-- Cart button that opens product page -->
+        <div id="side">
+            <div class="side1" id="cart"><a href="Product.html">
+                    <button class="btn1"><i class="fa-solid fa-cart-shopping fa-xl "></i></button></a>
+            </div>
+
+            <!-- Dropdown button that shows notifications when clicked on the button -->
+            <div class="dropdown">
+                <button onclick="myFunction1()" class="btn1 side1 dropbtn"> <i
+                        <i class=" dropbtn fa-regular fa-bell fa-2xl"></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <h4 style="padding: 0.8rem;">NOTIFICATIONS!!</h4>
+                    <hr>
+                    <ul style="list-style-type: disc;">
+                        <li class="drop"><a href="#">signUp to create and organize your profile</a></li>
+                        <hr>
+                        <li class="drop"><a href="#">New plant alert!!</a></li>
+                        <hr>
+                        <li class="drop"><a href="#">Click on the message icon whenever you need help</a>></li>
+                        <hr>
+                        <li class="drop"><a href="#">Welcome to Blonsai Blooms</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="side1" id="profile"><a href="#footer1">
+                    <button class="btn1"><i class="fa-solid fa-phone fa-xl"></i></button></a>
+            </div>
+
+            <!-- login button that opens a new page to input login details -->
+            <div class="side1" id="login">
+                <a href="Login.html" target="_blank"><button class="btn1"><i class="fa-solid fa-user fa-xl">
+                        </i></button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button to scroll to the top -->
+    <button onclick="topFunction()" id="topbtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <!-- A little description on Bonsai Blooms works -->
+    <div id="AboutUs-1" style="text-align: center; font-size: 1.5rem;">
+        <h2>Meet Our Team</h2>
+        <p>Bonsai Blooms has been running smoothly since 2018,</p>
+        <p>all thanks to this amazing team of ours along with our very hardworking staff and supportive community.</p>
+    </div>
+
+    
+    <div id="AboutUs-2">
+
+        <!-- Section with  name of the team members -->
+        <div id="Aside">
+            <h2>Team Members</h2>
+            <p><a href="#Sarita">Sarita Baral</a></p>
+            <p><a href="#Samana">Samana Bhatta</a></p>
+            <p><a href="#Reshma">Reshma Adhikari</a></p>
+            <p><a href="#Amita">Amita Thapa</a></p>
+        </div>
+
+        <!--Portfolio of each team member is viewed respectively when hovered over the image  -->
+        <div id="Asection">
+            <div id="Asection1">
+                <div id="Sarita" class="Asec-1">
+                    <h4>Sarita Baral</h4>
+                    <p>Team Leader</p>
+                    <img src="../images/aboutP/Sarita.jpg" alt="">
+                    <div class="SocialMedia">
+                        <button><a href="https://www.facebook.com/" target="_blank"><img class="Simg"
+                                    src="../images/logo/3146790_facebook_logo_icon.png" alt=""></button></a>
+                        <button><a href="https://www.instagram.com/" target="_blank"><img class="Simg"
+                                    src="../images/logo/3146786_instagram_logo_icon.png" alt=""></button></a>
+                        <button><a href="https://twitter.com/" target="_blank"><img class="Simg"
+                                    src="../images/logo/3146787_twitter_logo_icon.png" alt=""></button></a>
+                        <button><a href="https://www.linkedin.com/" target="_blank"><img class="Simg"
+                                    src="../images/logo/5296501_linkedin_network_linkedin logo_icon.png" alt=""></button></a>
+                    </div>
+                    <div class="overlay">
+                        <span>Sarita is the leader of our team. She is currently studying BSc(Hons) Computing in Informatics College Pokhara. She has volunteered in different events in our college. She mostly looked over the functional part of the website. She has amazing creativity and leadership skills as she strives to work with plans and strategies in a team.</span>
+                    </div>
+                </div>
+
+                <div id="Samana" class="Asec-1">
+                    <h4>Samana Bhatta</h4>
+                    <p>Team Member</p>
+                    <img src="../images/aboutP/Samana.jpg" alt="">
+                    <div class="SocialMedia">
+                        <button><a href="https://www.facebook.com/" target="_blank"><img class="Simg"
+                                    src="../images/logo/3146790_facebook_logo_icon.png" alt=""></button></a>
+                        <button><a href="https://www.instagram.com/" target="_blank"><img class="Simg"
+                                    src="../images/logo/3146786_instagram_logo_icon.png" alt=""></button></a>
+                        <button><a href="https://twitter.com/" target="_blank"><img class="Simg"
+                                    src="../images/logo/3146787_twitter_logo_icon.png" alt=""></button></a>
+                        <button><a href="https://www.linkedin.com/" target="_blank"><img class="Simg"
+                                    src="../images/logo/5296501_linkedin_network_linkedin logo_icon.png" alt=""></button></a>
+                    </div>
+                    <div class="overlay">
+                        <span>Samana is one of the team members of our team. She is also studying BSc(Hons)Computing in Informatics College Pokhara. She mostly looked over the documentation part of the website. She has quick decision making ability, is very punctual and hardworking.</span>
+                    </div>
+                </div>
+
+                <div id="Reshma" class="Asec-1">
+                    <h4>Reshma Adhikari</h4>
+                    <p>Team Member</p>
+                    <img src="../images/aboutP/Reshma.jpg" alt="">
+                    <div class="SocialMedia">
+                        <button><a href="https://www.facebook.com/" target="_blank"><img class="Simg"
+                                    src="../images/logo/3146790_facebook_logo_icon.png" alt=""></button></a>
+                        <button><a href="https://www.instagram.com/" target="_blank"><img class="Simg"
+                                    src="../images/logo/3146786_instagram_logo_icon.png" alt=""></button></a>
+                        <button><a href="https://twitter.com/" target="_blank"><img class="Simg"
+                                    src="../images/logo/3146787_twitter_logo_icon.png" alt=""></button></a>
+                        <button><a href="https://www.linkedin.com/" target="_blank"><img class="Simg"
+                                    src="../images/logo/5296501_linkedin_network_linkedin logo_icon.png" alt=""></button></a>
+                    </div>
+                    <div class="overlay">
+                        <span class="des">Reshma is one of the team members of our team.She is currently studying BSc(Hons)Computing in Informatics College Pokhara. She has the ability to work well with others, build strong relationships and can handle pressure well.</span>
+                    </div>
+                </div> 
+
+                <div id="Amita" class="Asec-1">
+                    <h4>Amita Thapa</h4>
+                    <p>Team Member</p>
+                    <img src="../images/aboutP/Amita.jpeg" alt="">
+                    <div class="SocialMedia">
+                        <button><a href="https://www.facebook.com/" target="_blank"><img class="Simg"
+                                    src="../images/logo/3146790_facebook_logo_icon.png" alt=""></button></a>
+                        <button><a href="https://www.instagram.com/" target="_blank"><img class="Simg"
+                                    src="../images/logo/3146786_instagram_logo_icon.png" alt=""></button></a>
+                        <button><a href="https://twitter.com/" target="_blank"><img class="Simg"
+                                    src="../images/logo/3146787_twitter_logo_icon.png" alt=""></button></a>
+                        <button><a href="https://www.linkedin.com/" target="_blank"><img class="Simg"
+                                    src="../images/logo/5296501_linkedin_network_linkedin logo_icon.png" alt=""></button></a>
+                    </div>
+                    <div class="overlay">
+                        <span>Amita is one of the team members of our team. She is currently studying BSc(Hons)Computing in Informatics College Pokhara. She is good at handling obstacles with ease while maintaining a comfortable learning environment.</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <hr>
+
+            <div id="Asection2">
+
+                <!-- Feedback form to collect users information -->
+                <div class="Asec2-a">
+                    <h4 style="text-align: center;">We Would Appreciate Your Feedback!!</h4>
+                    <div id="Asec2a">
+                        <form name="messageForm" onsubmit="validateForm()">
+                            <label>First Name: </label>
+                            <input type="text" name="fname">
+                            <br>
+                            <label>Last Name: </label>
+                            <input type="text" name="lname">
+                            <br>
+                            <label for="email">Enter your email address:</label>
+                            <br>
+                            <input type="email" id="email">
+                            <br>
+                            <label>Gender: </label>
+                            <input type="radio" name="genderDetails" value="male">Male
+                            <input type="radio" name="genderDetails" value="female" checked="checked">Female
+                            <br>
+
+                            <label>Message:</label>
+                            <br>
+                            <textarea rows="10" cols="45" name="message" placeholder="Enter your message"></textarea>
+                            <br>
+                            <br>
+                            <div id="Abtn">
+                                <div>
+                                    <input style="font-size: 1.15rem; width: 8rem;" type="submit" value="Submit Button">
+                                </div>
+                                <div>
+                                    <button style="font-size: 1.1rem;" type="reset">Reset</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Google map of our store which opens in another page when clicked on it -->
+                <div class="Asec2-a">
+                    <a target="_blank"
+                        href="https://www.google.com/maps/place/Bonsai+Blooms/@28.2040899,83.9636505,16.06z/data=!4m11!1m5!8m4!1e4!2s109480005425861828560!3m1!1e1!3m4!1s0x399595d00919096d:0xa168d6ab6cc57539!8m2!3d28.2053021!4d83.9616364">
+                        <img style="height: 31rem; width: 40rem;" src="../images/aboutP/map.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <br>
+        <hr>
+        <br>
+        <div id="footer1">
+
+            <div class="footer-1">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="Home.html">
+                            <p>Home</p>
+                        </a>
+                    </li>
+                    <li><a href="Product.html">
+                            <p>Products</p>
+                        </a>
+                    </li>
+                    <li><a href="Blog.html">
+                            <p>Blog</p>
+                        </a>
+                    </li>
+                    <li><a href="Research.html">
+                            <p>Research</p>
+                        </a>
+                    </li>
+                    <li><a href="About Us.html">
+                            <p>About Us</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-1">
+                <h4>Payment Options</p>
+                </h4>
+                <ul>
+                    <li>Esewa</li>
+                    <li>Khalti</li>
+                    <li>IME Pay</li>
+                    <li>Cash On Delivery</li>
+                    <li>Credit Cards</li>
+                </ul>
+            </div>
+
+            <div class="footer-1">
+                <h4>Connect through:</h4>
+                <button><a href="https://www.facebook.com/" target="_blank"><img
+                            src="../images/logo/3146790_facebook_logo_icon.png" alt=""></button></a>
+                <button><a href="https://www.instagram.com/" target="_blank"><img
+                            src="../images/logo/3146786_instagram_logo_icon.png" alt=""></button></a>
+                <button><a href="https://twitter.com/" target="_blank"><img
+                            src="../images/logo/3146787_twitter_logo_icon.png" alt=""></button></a>
+                <button><a href="https://www.linkedin.com/" target="_blank"><img
+                            src="../images/logo/5296501_linkedin_network_linkedin logo_icon.png" alt=""></button></a>
+                <p>Free Shipping on Fridays</p>
+                <p>Secure Online Payment</p>
+                <p>Quick Customer Service</p>
+
+            </div>
+
+            <div class="footer-1">
+                <ul>
+                    <li>
+                        <h4>Bonsai Blooms</h4>
+                    </li>
+                    <li>
+                        <p>Ecommerce Business</p>
+                    </li>
+                    <li>
+                        <p>Lakeside, Pokhara</p>
+                    </li>
+                    <li>
+                        <p>061-586541</p>
+                    </li>
+                    <li>
+                        <p>9869998160</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-1">
+                <a href="About Us.html">
+                    <h4>Team Members</h4>
+                </a>
+                <ul>
+                    <li>
+                        <p>Amita Thapa</p>
+                    </li>
+                    <li>
+                        <p>Reshma Adhikari</p>
+                    </li>
+                    <li>
+                        <p>Samana Bhatta</p>
+                    </li>
+                    <li>
+                        <p>Sarita Baral</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div id="footer2">
+            <p>Copyright &copy 2023 Bonsai Blooms. All Rights Reserved.</p>
+        </div>
+    </footer>
+ 
+    <!-- Internal JavaScript -->
+    <script>
+
+        //JavaScript for scroll to top button
+        // Get the button:
+        let mybutton = document.getElementById("topbtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+
+        //JavaScript to validateForm so that user gets notified if the data is missing in any field or if user provided all information
+        function validateForm() {
+            var firstName = document.forms["messageForm"]["fname"].value;
+            var lastName = document.forms["messageForm"]["lname"].value;
+            var gender = document.forms["messageForm"]["genderDetails"].value;
+            var messageDetails = document.forms["messageForm"]["message"].value;
+
+            if (firstName == "" || lastName == "" || messageDetails == "") {
+                alert("Empty fields are present!!! Please enter the values...");
+            }
+            else {
+                alert("Thank you for your feedback!!!")
+            }
+        }
+
+    </script>
+</body>
+
+</html>

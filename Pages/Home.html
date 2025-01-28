@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Use of meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- The title is used to provide a title name for a webpage that appears in a browser's title bar or a page's tab -->
+    <title>Bonsai Blooms</title>
+
+    <!-- This is the link of External CSS codes used to format the layout of a webpage -->
+    <link rel="stylesheet" href="../CSS/Style.css">
+
+    <!-- This is the link of External JavaScript codes used to create dynamic and interactive web content -->
+    <script type="text/javascript" src="../JS/Brain.js"></script>
+
+    <!-- This is the link of the downloaded package of Fonts and Icons from FontAwesome -->
+    <link rel="stylesheet" href="../fonts&icons/all_icons/css/all.min.css">
+
+    <!-- Use of Internal CSS -->
+    <style>
+
+        /*CSS for the second section below navigation bar of home page*/
+        #section2 {
+            display: inline-flex;
+            background-color: rgb(226, 220, 220);
+        }
+
+        #home1 {
+            width: 60%;
+            text-align: center;
+            font-size: 1.5rem;
+            padding-top: 4rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+
+        #btn2 {
+            height: 3.5rem;
+            width: 12rem;
+            border-color: rgba(75, 73, 73, 0.39);
+        }
+
+        #btn2 a {
+            font-size: 1.7rem;
+        }
+
+        #btn2:hover { /*This css code changes style only when hovered over the element*/
+            cursor: pointer;
+            background-color: rgb(187, 185, 185);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- This is the code for navigation bar section -->
+    <div id="navbar">
+
+        <!-- Use of inline CSS -->
+        <!-- Due to this anchor tag in logo section when clicked on it, it returns us to home page -->
+        <a style="text-decoration: none;" href="Home.html">
+            <div id="logo">
+                <img src="../images/logo/bonsai.png" alt="logo">
+                <h3>Bonsai Blooms</h3>
+            </div>
+        </a>
+
+        <!-- links of main pages in the navigation bar -->
+        <div id="bar">
+            <ul>
+                <a href="Home.html"><li class="navs"> Home </li></a>
+                <a href="Product.html"><li class="navs"> Products</li></a>
+                <a href="Blog.html"><li class="navs">Blog</li></a>
+                <a href="Research.html"><li class="navs"> Research</li></a>
+                <a href="About Us.html"><li class="navs">About Us</li></a>
+            </ul>
+        </div>
+
+        <!-- Cart button that opens product page -->
+        <div id="side">
+            <div class="side1" id="cart"><a href="Product.html">
+                    <button class="btn1"><i class="fa-solid fa-cart-shopping fa-xl "></i></button></a>
+            </div>
+
+            <!-- Dropdown button that shows notifications when clicked on the button -->
+            <div class="dropdown">
+                <button onclick="myFunction1()" class="btn1 side1 dropbtn"> <i
+                        <i class=" dropbtn fa-regular fa-bell fa-2xl"></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <h4 style="padding: 0.8rem;">NOTIFICATIONS!!</h4>
+                    <hr>
+                    <ul style="list-style-type: disc;">
+                        <li class="drop"><a href="#">signUp to create and organize your profile</a></li>
+                        <hr>
+                        <li class="drop"><a href="#">New plant alert!!</a></li>
+                        <hr>
+                        <li class="drop"><a href="#">Click on the message icon whenever you need help</a>></li>
+                        <hr>
+                        <li class="drop"><a href="#">Welcome to Blonsai Blooms</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="side1" id="profile"><a href="#footer1">
+                    <button class="btn1"><i class="fa-solid fa-phone fa-xl"></i></button></a>
+            </div>
+
+            <!-- login button that opens a new page to input login details -->
+            <div class="side1" id="login">
+                <a href="Login.html" target="_blank"><button class="btn1"><i class="fa-solid fa-user fa-xl">
+                        </i></button></a>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="topFunction()" id="topbtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <!-- This is the code for animated promotion  -->
+    <div id="section1">
+        <span id="sec1">New Year Sales 2023!! &nbsp&nbsp&nbsp Get even the exclusive products upto 40% off!!
+            &nbsp&nbsp&nbsp New Year Sales 2023!! &nbsp&nbsp&nbsp Get even the exclusive products upto 40% off!!</span>
+    </div>
+  
+    <!-- This is HTML code for home section containing description and image side by side -->
+    <div id="section2">
+        <div id="home1" class="home-1">
+            <h4>Small & Elegant Trees</h4>
+            <h1>Choosing Green For Glowing Minds</h1>
+            <br>
+            <p>Bonsai is a beautiful art of creating miniature versions
+                of nature's majestic trees, sculpting them into small, yet intricate and elegant forms that are both
+                stunning and peaceful.</p>
+            <br>
+            <button id="btn2"><a href="Product.html">Shop Now</a></button>
+        </div>
+        <div id="home2">
+            <!-- Use of Inline CSS to change width and height of the image -->
+            <img style=" width: 30rem; height: 25rem;" src="../images/homeP/home.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- This is HTML code for how it works section  -->
+    <div id="section3">
+        <h3>How it works?</h3>
+
+        <br>
+        <hr>
+        <div id="sec3a">
+            <div>
+                <p class="sec3-b">Explore</p>
+                <p>To browse plants click on Shop Now or Products in navigation</p>
+                <i class="sec3-a"><img src="../images/homeP/icon1.gif" alt=""></i>
+            </div>
+            <div>
+                <p class="sec3-b">Choose</p>
+                <p>You can click on the favourites icon to save it for later</p>
+                <i class="sec3-a"><img src="../images/homeP/icon2.gif" alt=""></i>
+            </div>
+            <div>
+                <p class="sec3-b">Buy</p>
+                <p>You can click on buy to purchase the plant</p>
+                <i class="sec3-a"><img src="../images/homeP/icon3.gif" alt=""></i>
+            </div>
+            <div>
+                <p class="sec3-b">Get</p>
+                <p>Choose the payment method and delivery address, the plant will reach on
+                    specified day.</p>
+                <i class="sec3-a"><img src="../images/homeP/icon4.gif" alt=""></i>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <!-- This is HTML code for the small product section, displaying the new products -->
+    <div id="section4" style="text-align: center; margin: 2rem 0.5rem; font-size: 1.4rem;">
+        <h2>New Arrivals!!</h2>
+        <div class="Psec-1">
+            <div id="Trident" class="Pitem">
+                <img src="../images/productP/New Arrivals/trident maple(acer buergerianum).jpg" alt="">
+                <div>
+                    <p>Trident Maple</p>
+                    <div>
+                        <span class="actualP">Rs.3800</span><span class="discountedP">Rs.4000</span>
+                    </div>
+                    <div style="display: inline-flex; margin:0.5rem 0rem;">
+                        <button style=" border: none" onclick="myFunction2()">
+                            <p class="BuyNow"
+                                style="height:2rem; width:8rem; text-align: center; margin: 0rem; font-size: 1.45rem;">
+                                Buy Now</p>
+                        </button>
+                        <button style="margin-left: 1rem; cursor: pointer; border: none;"><img
+                                style="height:1.5rem; width:1.8rem; margin: 0rem; padding: 0rem;"
+                                src="../images/logo/Fav1.png" onclick="changeImage(this)"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="Pitem">
+                <img src="../images/productP/New Arrivals/yew(taxus or taxaceae).jpg" alt="">
+                <div>
+                    <p>Yew</p>
+                    <p class="actualP">Rs.2900</p>
+                    <div style="display: inline-flex; margin:0.5rem 0rem;">
+                        <button style=" border: none" onclick="myFunction2()">
+                            <p class="BuyNow"
+                                style="height:2rem; width:8rem; text-align: center; margin: 0rem; font-size: 1.45rem;">
+                                Buy Now</p>
+                        </button>
+                        <button style="margin-left: 1rem; cursor: pointer; border: none;"><img
+                                style="height:1.5rem; width:1.8rem; margin: 0rem; padding: 0rem;"
+                                src="../images/logo/Fav1.png" onclick="changeImage(this)"></button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="Pitem">
+                <img src="../images/productP/New Arrivals/azalea(rhododendron).jpg" alt="">
+                <div>
+                    <p>Azalea</p>
+                    <div>
+                        <span class="actualP">Rs.5500</span><span class="discountedP">Rs.5600</span>
+                    </div>
+                    <div style="display: inline-flex; margin:0.5rem 0rem;">
+                        <button style=" border: none" onclick="myFunction2()">
+                            <p class="BuyNow"
+                                style="height:2rem; width:8rem; text-align: center; margin: 0rem; font-size: 1.45rem;">
+                                Buy Now</p>
+                        </button>
+                        <button style="margin-left: 1rem; cursor: pointer; border: none;"><img
+                                style="height:1.5rem; width:1.8rem; margin: 0rem; padding: 0rem;"
+                                src="../images/logo/Fav1.png" onclick="changeImage(this)"></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="Psec-1">
+            <div class="Pitem">
+                <img src="../images/productP/New Arrivals/brazilian rain tree(Pithecellobium tortum).jpg" alt="">
+                <div>
+                    <p>Brazilian Rain Tree</p>
+                    <p class="actualP">Rs.3000</p>
+                    <div style="display: inline-flex; margin:0.5rem 0rem;">
+                        <button style=" border: none" onclick="myFunction2()">
+                            <p class="BuyNow">
+                                Buy Now</p>
+                        </button>
+                        <button style="margin-left: 1rem; cursor: pointer; border: none;"><img
+                                style="height:1.5rem; width:1.8rem; margin: 0rem; padding: 0rem;"
+                                src="../images/logo/Fav1.png" onclick="changeImage(this)"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="Pitem">
+                <img src="../images/productP/New Arrivals/cotoneaster(cotoneaster).jpg" alt="">
+                <div>
+                    <p>Contoneaster</p>
+                    <p class="actualP">Rs.4700</p>
+                    <div style="display: inline-flex; margin:0.5rem 0rem;">
+                        <button style=" border: none" onclick="myFunction2()">
+                            <p class="BuyNow">
+                                Buy Now</p>
+                        </button>
+                        <button style="margin-left: 1rem; cursor: pointer; border: none;"><img
+                                style="height:1.5rem; width:1.8rem; margin: 0rem; padding: 0rem;"
+                                src="../images/logo/Fav1.png" onclick="changeImage(this)"></button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="Pitem">
+                <img src="../images/productP/New Arrivals/ficus(ficus retusa or ginseng).jpg" alt="">
+                <div>
+                    <p>Fiscus</p>
+                    <div>
+                        <span class="actualP">Rs.2500</span><span class="discountedP">Rs.2750</span>
+                    </div>
+                    <div style="display: inline-flex; margin:0.5rem 0rem;">
+                        <button style=" border: none" onclick="myFunction2()">
+                            <p class="BuyNow">
+                                Buy Now</p>
+                        </button>
+                        <button style="margin-left: 1rem; cursor: pointer; border: none;"><img
+                                style="height:1.5rem; width:1.8rem; margin: 0rem; padding: 0rem;"
+                                src="../images/logo/Fav1.png" onclick="changeImage(this)"></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- This is the footer section of Home page -->
+    <footer>
+        <br>
+        <div id="footer1">
+
+            <!-- Footer section providing quick links all important pages -->
+            <div class="footer-1">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="Home.html">
+                            <p>Home</p>
+                        </a>
+                    </li>
+                    <li><a href="Product.html">
+                            <p>Products</p>
+                        </a>
+                    </li>
+                    <li><a href="Blog.html">
+                            <p>Blog</p>
+                        </a>
+                    </li>
+                    <li><a href="Research.html">
+                            <p>Research</p>
+                        </a>
+                    </li>
+                    <li><a href="About Us.html">
+                            <p>About Us</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Features which type of payments are accepted by bonsai blooms -->
+            <div class="footer-1">
+                <h4>Payment Options</p>
+                </h4>
+                <ul>
+                    <li>Esewa</li>
+                    <li>Khalti</li>
+                    <li>IME Pay</li>
+                    <li>Cash On Delivery</li>
+                    <li>Credit Cards</li>
+                </ul>
+            </div>
+
+            <!-- Connect with social media -->
+            <div class="footer-1">
+                <h4>Connect through:</h4>
+                <button><a href="https://www.facebook.com/" target="_blank"><img
+                            src="../images/logo/3146790_facebook_logo_icon.png" alt=""></button></a>
+                <button><a href="https://www.instagram.com/" target="_blank"><img
+                            src="../images/logo/3146786_instagram_logo_icon.png" alt=""></button></a>
+                <button><a href="https://twitter.com/" target="_blank"><img
+                            src="../images/logo/3146787_twitter_logo_icon.png" alt=""></button></a>
+                <button><a href="https://www.linkedin.com/" target="_blank"><img
+                            src="../images/logo/5296501_linkedin_network_linkedin logo_icon.png" alt=""></button></a>
+                <p>Free Shipping on Fridays</p>
+                <p>Secure Online Payment</p>
+                <p>Quick Customer Service</p>
+
+            </div>
+
+            <!-- Details like address, phoneNo of bonsai blooms -->
+            <div class="footer-1">
+                <ul>
+                    <li>
+                        <h4>Bonsai Blooms</h4>
+                    </li>
+                    <li>
+                        <p>Ecommerce Business</p>
+                    </li>
+                    <li>
+                        <p>Lakeside, Pokhara</p>
+                    </li>
+                    <li>
+                        <p>061-586541</p>
+                    </li>
+                    <li>
+                        <p>9869998160</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-1">
+                <a href="About Us.html">
+                    <h4>Team Members</h4>
+                </a>
+                <ul>
+                    <li>
+                        <p>Amita Thapa</p>
+                    </li>
+                    <li>
+                        <p>Reshma Adhikari</p>
+                    </li>
+                    <li>
+                        <p>Samana Bhatta</p>
+                    </li>
+                    <li>
+                        <p>Sarita Baral</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+
+        <!-- A copyright section -->
+        <div id="footer2">
+            <p>Copyright &copy 2023 Bonsai Blooms. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Use of Internal JavaScript -->
+    <script>
+
+        //Internal JavaScript for get to top button
+        // Get the button:
+        let mybutton = document.getElementById("topbtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+
+    </script>
+
+</body>
+
+</html>

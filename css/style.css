@@ -1,0 +1,627 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  /* background-color: white; */
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* this is where the body starts */
+body {
+  color: #f9f9f9;
+  background-color: #000000;
+  /* color: #f9f9f9; */
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+/* for the logo on the top left side of the display */
+.logo {
+  width: 75px;
+  height: auto;
+}
+#header {
+  align-items: center;
+  padding: 10px 20px;
+  /* background-color: #262626; */
+  background-color: #2d2a2b;
+  display: flex;
+  height: 60px;
+}
+
+.search input {
+  border-radius: 50px;
+  border: rgb(0, 0, 0) solid 4px;
+}
+
+.socials {
+  /* margin-left: 740px; */
+  margin-left: 900px;
+  /* border: red solid 2px; */
+}
+
+.socials img {
+  width: 20px;
+}
+
+.headname {
+  flex: 1;
+  font-size: 30px;
+  margin: 0;
+  color: rgb(200, 193, 193);
+  padding-left: 37%;
+}
+
+/* this is the style for the navigation bar of the whole webpage */
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 20px 0px;
+  margin-left: 20px;
+  /* border: red solid 2px; */
+}
+.navbar li {
+  margin-right: 15px 10px;
+  /* border: red solid 2px; */
+}
+nav li a {
+  text-decoration: none;
+  color: rgb(200, 193, 193);
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+/* hover for to get the transition effect when mouse is hovered over */
+nav li a:hover {
+  background-color: #2f2f2f;
+  transition: 1s;
+}
+
+.headerblock {
+  margin-top: 30px;
+  display: flex;
+}
+.headheading {
+  margin: 150px 50px;
+  /* padding-right: 40%; */
+  /* border: green solid 2px; */
+  padding-right: 100px;
+  /* display: inline-block; */
+  /* align-items: center; */
+}
+
+#backgroundimg {
+  /* margin-top: -350px; */
+  /* width: 1200px; */
+  /* border: red solid 2px; */
+  /* padding-right: 0px; */
+  /* border: green solid 5px; */
+  width: 100%;
+  /* text-align: end; */
+  height: 680px;
+  align-items: end;
+  justify-content: end;
+  display: flex;
+  margin-left: -350px;
+}
+
+#backgroundimg img {
+  /* border: red solid 2px; */
+  /* padding-left: 776px; */
+  /* padding-left: 475px; */
+  width: 85%;
+}
+
+/* ---------------------------------------------------------2nd SECTION ------------------------------------------------------------- */
+.maindesc {
+  display: flex;
+}
+
+.leftdesc {
+  background-color: #101010;
+  /* border: red solid 2px; */
+  padding: 200px;
+  border-radius: 50px;
+}
+.browsingbuttons {
+  width: 150px;
+  height: 50px;
+  margin-right: 40px;
+  border-radius: 15px;
+  color: rgb(143, 144, 144);
+  background-color: #181818;
+  margin-top: 30px;
+}
+.browsingbuttons:hover {
+  cursor: pointer;
+  background-color: #202020;
+  transition: 1s;
+}
+.leftdesc a {
+  color: rgb(237, 235, 235);
+  text-decoration: none;
+}
+
+.rightdesc {
+  /* border: red solid 2px; */
+  width: 685px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 100px; */
+}
+.rightdesc h3 {
+  padding: 40px;
+  padding-top: 100px;
+}
+
+/* --------------------------------------------------featured companies logo--------------------------------------------------------------------- */
+
+.companytable {
+  display: flex;
+  max-width: fit-content;
+}
+
+.companylogo {
+  display: flex;
+}
+
+/* -----------------------------------------------the product section on the home page (4th SECRION) --------------------------------------*/
+.cards {
+  padding-left: 40px;
+}
+.productdisplay {
+  padding-top: 74px;
+}
+
+/* the section which guides you to buy the watch */
+/* #howtobuy {
+  padding-top: 10%;
+  padding-bottom: 10px;
+} */
+/* #howtobuy h2 {
+  text-align: center;
+} */
+/* #buycontainer {
+  display: flex;
+  justify-content: space-evenly;
+} */
+/* .buyimg {
+  width: 80px;
+  height: auto;
+} */
+
+/* this is the footer section of the home page */
+
+.tablehead {
+  font-size: large;
+  justify-content: space-evenly;
+}
+.footermain {
+  background-color: black;
+  margin-top: 50px;
+  padding: 30px 20px;
+  border: white solid 1px;
+}
+.footermain ul {
+  text-decoration: none;
+  margin-top: 10px;
+  list-style: none;
+  font-size: larger;
+}
+.productheader {
+  /* border: red solid 2px; */
+  display: flex;
+  height: 40px;
+  width: 100%;
+  margin-right: 100px;
+}
+.productcontianer .productheader {
+  /* position: absolute; */
+  /* justify-content: space-evenly; */
+  margin-top: -20px;
+  justify-content: space-evenly;
+}
+
+/* #cardsec1{
+  padding-left: 20%;
+} */
+
+/* #cardsec2{
+  padding-left: 40%;
+} */
+
+/* #cardsec3{
+  padding-left: 55%;
+} */
+
+/* -------------------------------------Product page css------------------------------------- */
+
+#producttable {
+  /* padding-top: 5%;
+  background-color: rgb(0, 0, 0); */
+  text-align: center;
+  /* padding: 30px 40px; */
+}
+#producttable h2 {
+  font-size: xx-large;
+  background-color: rgb(56, 56, 56);
+  padding: 0;
+  margin-inline: 100px;
+  border-radius: 50px;
+}
+/* #productcontianer {
+  background-color: black;
+  margin: 10%;
+  display: flex;
+} */
+
+#producttable .productcontianer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  /* border: #006039 solid 2px; */
+}
+#producttable .card {
+  width: 290px;
+  height: 450px;
+  /* border: 1px solid rgb(106, 104, 104); */
+  /* border: rgb(36, 109, 12) solid 2px; */
+  border-radius: 25px;
+  margin: 15px 0;
+  /* box-shadow: 20px 20px 30px rgb(250, 246, 246); */
+  background-color: #171717;
+  text-align: start;
+  /* added in disscusson */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* overflow: hidden; */
+  /* size: fixed; */
+  margin-right: 20px;
+}
+#producttable .card:hover {
+  /* box-shadow: 20px 20px 30px rgb(33, 33, 33); */
+  background-color: rgb(20, 20, 20);
+  transition: 95ms;
+  /* scale: 105%; */
+  margin-top: -2px;
+}
+
+#producttable .card .proname {
+  /* padding: 10px 0; */
+  padding-left: 15px;
+  margin-top: -30px;
+  padding-bottom: 30px;
+  /* border: red solid 2px; */
+  cursor: default;
+}
+
+#producttable .card .proname h5 {
+  padding-top: 7px;
+  color: white;
+  font-size: 17px;
+  /* text-align: start; */
+}
+
+#producttable .card .proname h4 {
+  padding-top: 7px;
+  font-size: 20px;
+  color: rgb(79, 124, 10);
+}
+
+#producttable .card .proname button {
+  /* background-color: coral; */
+  background-color: #13dc8c;
+  border-radius: 50px;
+  width: 270px;
+  cursor: pointer;
+  margin-top: 20px;
+  /* border: rgb(255, 255, 255) solid 2px; */
+}
+
+#producttable .card img {
+  border-radius: 20px;
+  width: auto;
+  height: 300px;
+  padding-left: 50px;
+  padding-top: 45px;
+}
+
+/* #producttable .card img:hover {
+  height: 210px;
+  width: auto;
+  transition: 1s;
+} */
+/* .watchimg {
+  width: 50%;
+  height: auto;
+  margin: 25%;
+  margin-bottom: 0;
+} */
+/* .watchname {
+  text-align: center;
+  padding-bottom: 20%;
+} */
+
+/* .wip {
+  font-size: 400px;
+  border: red solid 2px;
+  text-align: center;
+  color: #262626;
+} */
+/* .wip h1 a {
+  text-decoration: none;
+  color: #2f2f2f;
+} */
+
+/* -------------------------------------the about us section-------------------------------------------- */
+
+.aboutusall {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #101010;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #13dc8c; */
+  min-height: 800px;
+  padding: 20px;
+}
+/* aaba top section  */
+.topSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 900px; */
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 2px solid green;
+  width: 400px;
+  height: 380px;
+  padding: 10px;
+  /* box-sizing: border-box; */
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-inline: 50px;
+  margin-top: 20px;
+  border-radius: 50px;
+  background-color: rgb(28, 28, 28);
+}
+.card:hover {
+  background-color: black;
+  width: 410px;
+  height: 390px;
+}
+.card h3 {
+  margin-top: 50px;
+}
+.card #adh {
+  margin-left: -90px;
+}
+
+.card #anuj {
+  margin-left: -90px;
+}
+
+.card #bishal {
+  margin-left: -50px;
+}
+.card p {
+  margin-top: 100px;
+  margin-left: -60px;
+}
+
+.portrait {
+  width: 100%;
+  height: auto;
+}
+
+.card img {
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  border-radius: 50px;
+}
+.topSection .card {
+  padding: 0;
+}
+
+.formcontainer {
+  background-color: black;
+  padding: 40px;
+}
+
+.aboutusform {
+  margin-left: 25%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 520px;
+  width: 700px;
+  border: rgb(82, 82, 82) solid 2px;
+  background-color: #101010;
+  border-radius: 50px;
+  box-shadow: #2f2f2f;
+}
+
+.formheading h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.namefield input {
+  display: flex;
+  border-radius: 50px;
+  width: 350px;
+  height: 35px;
+  background-color: #252525;
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+}
+
+.namefield textarea {
+  color: rgb(255, 255, 255);
+  /* padding-left: 10px; */
+  padding: 10px;
+}
+
+.aboutusform textarea {
+  border-radius: 5px;
+  height: 220px;
+  width: 670px;
+  background-color: #252525;
+}
+
+/* -------------------------------------------------- BLOG's CSS -------------------------------------------------- */
+
+/* .question {
+  margin-top: 20px;
+  background-color: rgb(28, 28, 28);
+  width: 700px;
+  height: 400px;
+  display: inline-block;
+  margin-left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: #13dc8c solid 2px;
+} */
+
+.blog {
+  text-align: center;
+  display: inline;
+}
+
+.blog h3 {
+  font-size: xx-large;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  color: rgb(200, 193, 193);
+}
+
+.blog h4 {
+  padding-bottom: 20px;
+}
+
+.blog p {
+  margin-bottom: 15px;
+}
+
+.bloghr {
+  margin-bottom: 30px;
+}
+
+#photos {
+  /* margin-right: 1200px; */
+  margin-left: 10px;
+  height: 230px;
+  margin-top: -200px;
+  width: 400px;
+}
+
+/* .bolg #vedios{
+  height: 2px;
+ margin-right: 900px;
+} */
+.intro {
+  display: flex;
+  margin-inline: 500px;
+  justify-content: center;
+}
+
+main {
+  background-color: black;
+}
+
+.blog {
+  margin-top: 80px;
+  /* background-color: green; */
+}
+
+.video {
+  height: 250px;
+  margin-left: 1000px;
+  margin-top: -1000px;
+  width: 400px;
+}
+
+#question1 {
+  width: 65%;
+}
+
+#question2 {
+  width: 65%;
+}
+
+.negetiveimg {
+  width: 35%;
+}
+
+#copyrightsec {
+  background-color: black;
+}
+
+/* -----------------------------------------------Research page css----------------------------------------- */
+
+.ResearchHeading {
+  text-align: center;
+  padding-top: 40px;
+  margin-inline: 500px;
+  margin-bottom: 20px;
+  /* border: red solid 2px; */
+}
+
+.researchbox {
+  border: rgb(107, 107, 107) solid 1px;
+  height: 250px;
+  margin-inline: 40px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.researchbox img {
+  width: 1200px;
+  box-shadow: 2px 1px 10px rgb(57, 98, 66);
+}
+
+.refnav {
+  max-width: 100%;
+  height: auto;
+}
+
+.research_imagetext {
+  text-align: center;
+  /* border: yellow solid 2px; */
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.research_imagetext a {
+  text-decoration: none;
+  color: white;
+}
+
+#researchfooter {
+  height: 400px;
+}
+
+#researchPro {
+  height: 650px;
+}
+
+#reference_blog {
+  height: 700px;
+}
