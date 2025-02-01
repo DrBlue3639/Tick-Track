@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tick & Track</title>
+
+    <!-- this is a external css code for the webpage -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+
+    <!-- this is the header part that shows the site's name and the logo -->
+    <div id="header">
+      <a style="text-decoration: none" href="index.html">
+        <img src="img/ticktracklogo.png" alt="logo" class="logo"
+      /></a>
+      <div class="headname">Tick & Track</div>
+      <div class="search">
+        <form>
+          <input type="text" placeholder="Search Watches" />
+        </form>
+      </div>
+    </div>
+    <!----------------------------------------------- this is the html tag for the navigation panel --------------------------------------------->
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/product.html">Products</a></li>
+        <li><a href="pages/Research.html">Research</a></li>
+        <li><a href="pages/Blog.html">Blog</a></li>
+        <li><a href="pages/AboutUs.html">About Us</a></li>
+        <div class="socials">
+          <a href="https://www.instagram.com" target="_blank"
+            ><img src="img/socials/insta.png" alt="insta"
+          /></a>
+          <a href="https://www.youtube.com" target="_blank"
+            ><img src="img/socials/youtube.png" alt="youtube"
+          /></a>
+          <a href="https://www.twitter.com" target="_blank"
+            ><img src="img/socials/twiter.png" alt="twiter"
+          /></a>
+          <a href="https://www.facebook.com" target="_blank"
+            ><img src="img/socials/facebook.png" alt="facebook"
+          /></a>
+        </div>
+      </ul>
+    </nav>
+
+    <!-- ---------------------------------------------------this is the start of the home page----------------------------------------------------------- -->
+
+    <div class="headerblock">
+      <div class="headheading" id="text">
+        <h1>Luxury On Your Wrist</h1>
+        <br />
+        <h3>
+          Discover timeless style and precision with our <br />exclusive
+          collection of premium watches.
+        </h3>
+        <br />
+        <br />
+        <br />
+        <h4>
+          Explore our premium watch collection, crafted <br />
+          for those who value quality. Click below to view all Products.
+        </h4>
+        <br />
+        <br />
+        <a href="pages/product.html">
+          <button class="browsingbuttons">View Products</button>
+        </a>
+      </div>
+      <!-- the big image of a watch on the front page  -->
+      <div id="backgroundimg" class="backgroundimg">
+        <img
+          src=" img/backkkk(2).png"
+          alt="image of a watch"
+          width="580px"
+          ,height="auto"
+        />
+      </div>
+    </div>
+
+    <hr color="grey" />
+    <!-- ------------------------------this is the start of the section that gives a short description of other pages-------------------------- -->
+
+    <div class="maindesc">
+      <div class="leftdesc">
+        <h3 style="color: rgb(229, 229, 229)">
+          This page was designed based on multiple sites as <br />
+          references. To get into more depth visit our Research page. <br />
+          <br />
+          Visit our blog page to gain knowledge on today's technology.
+        </h3>
+        <a href="pages/Blog.html"
+          ><button class="browsingbuttons">View Blog</button></a
+        >
+        <a href="pages/Research.html"
+          ><button class="browsingbuttons">Research</button></a
+        >
+      </div>
+      <div class="rightdesc">
+        <h3 style="color: rgb(209, 211, 211)">
+          At Trick and Track, we create stylish, high-quality watches that
+          reflect your personality. Our collection is designed to inspire
+          confidence and style. Thank you for being part of our journey!
+        </h3>
+        <a href="pages/AboutUs.html">
+          <button class="browsingbuttons">AboutUs</button>
+        </a>
+      </div>
+    </div>
+
+    <hr color="grey" />
+
+    <!-- ---------------------------------------------------------featured companies----------------------------------------------------------- -->
+
+    <div class="featuredbrands">
+      <h1>
+        <u>Featured Brands</u>
+      </h1>
+    </div>
+
+    <hr color="gray" />
+
+    <div class="companytable" id="imageContainer">
+      <div class="companylogo1">
+        <img
+          src="img/logos/Rolex.png"
+          alt="rolex logo"
+          width="100%"
+          id="image1"
+        />
+      </div>
+      <div class="companylogo2">
+        <img
+          src="img/logos/Breguet.png"
+          alt="Bregute logo"
+          width="100%"
+          id="image2"
+        />
+      </div>
+      <div class="companylogo3">
+        <img
+          src="img/logos/Blancpain.png"
+          alt="Balncpain logo"
+          width="100%"
+          id="image3"
+        />
+      </div>
+      <div class="companylogo4">
+        <img
+          src="img/logos/AudemarsPiguet.png"
+          alt="AudemarsPiguet logo"
+          width="100%"
+          id="image4"
+        />
+      </div>
+    </div>
+
+    <hr color="gray" />
+
+    <!-- ---------------------------------------------------------------search for Brands section---------------------------------------------- -->
+
+    <div class="searchBrands">
+      <h1>Searching for a specific Brand?</h1>
+      <br /><br />
+      <h3>
+        We've watches from various brands such as Rolex, Breguet, AudemarsPiguet
+        and Balncpain <br />
+        Click the button below to search for a specific brand
+      </h3>
+      <br />
+      <br /><br />
+      <button onclick="searchBrands(click)" id="browseBrands">
+        Search specific brands
+      </button>
+    </div>
+
+    <hr color="gray" />
+
+    <!-- this is the link to the external javascript -->
+
+    <script src="JavaScript/JavaScript.js"></script>
+
+    <hr color="gray" />
+
+    <!------------------------------------------------- some of the displayed products on the home page ------------------------------------------->
+
+    <div class="New">
+      <h1>Featured Products</h1>
+    </div>
+
+    <hr color="grey" />
+
+    <div id="producttable">
+      <div class="productdisplay">
+        <div class="productcontianer">
+          <div class="productheader">
+            <div class="headinga">
+              <h1 style="color: #290e8a; padding-left: 20%" id="cardsec1">
+                Breguet
+              </h1>
+            </div>
+            <div class="headingb">
+              <h1 style="color: #d4af37; padding-left: 25%" id="cardsec2">
+                AudemarsPiguet
+              </h1>
+            </div>
+            <div class="headingc">
+              <h1 style="color: white; padding-left: 55%" id="cardsec3">
+                Balncpain
+              </h1>
+            </div>
+          </div>
+          <div class="card" style="border: #3700fc solid 2px">
+            <a href="Pages/product.html" style="text-decoration: none">
+              <img
+                src="img/naya ghadi1/Breguet/breguet classique double tourbillion 5345 quai de i horloge.png"
+                alt="image of a watch"
+              />
+              <div class="proname">
+                <span style="color: #3700ff">Breguet</span>
+                <h5>Breguet classique double tourbillion</h5>
+                <h4>$1100</h4>
+              </div>
+            </a>
+          </div>
+
+          <div class="card" style="border: #d4af37 solid 2px">
+            <a href="Pages/product.html" style="text-decoration: none">
+              <img
+                src="img/naya ghadi1/Audemars Piguet/audemars piguet royal oak blue mens watch  .png"
+                alt="image of a watch"
+              />
+              <div class="proname">
+                <span style="color: #d4af37">AudemarsPiguet</span>
+                <h5>Rolesor Black</h5>
+                <h4>$1100</h4>
+              </div>
+            </a>
+          </div>
+
+          <div class="card" style="border: white solid 2px">
+            <a href="Pages/product.html" style="text-decoration: none">
+              <img
+                src="img/naya ghadi1/balncpain/blancpain fifty fathoms autom atique.png"
+                alt="image of a watch"
+              />
+              <div class="proname">
+                <span>balncpain</span>
+                <h5>Balncpain C-5000</h5>
+                <h4>$1100</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------------------------------------------THIS IS THE FOOTER -------------------------------------------------------- -->
+
+    <footer>
+
+      <table class="footermain" width="100%">
+        <tr class="tablehead">
+          <td>Payment Methods</td>
+          <td>location</td>
+          <td>contact</td>
+          <td>socialmedia</td>
+          <td>Sign in:</td>
+        </tr>
+        <tr>
+          <td class="footersec">
+            <ul>
+              <li>esewa</li>
+              <li>Khalti</li>
+              <li>blabla</li>
+            </ul>
+          </td>
+          <td class="footersec">
+            <ul>
+              <li>Pokhara</li>
+              <li>Kathmandu</li>
+              <li>chitwan</li>
+            </ul>
+          </td>
+          <td class="footersec">
+            <ul>
+              <li>061538302</li>
+              <li>9898</li>
+              <li>100</li>
+            </ul>
+          </td>
+          <td class="footersec">
+            <ul>
+              <li>Facebook</li>
+              <li>insta</li>
+              <li>linkedin</li>
+            </ul>
+          </td>
+          <td class="footersec">
+            <form>
+              <input type="text" , placeholder="Sigh In" />
+              <button class="footersubmit">Sign In</button>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </footer>
+    <hr color="grey" />
+    <div id="Copyrightsec">
+      <p style="text-align: center">
+        Copyright © 2025 Tick & Track. All Rights Reserved.
+      </p>
+    </div>
+
+    <!-- -------------------------------------this is the internal css used in this page-------------------------------------------------- -->
+
+    <style>
+      .companytable {
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
+      .New {
+        text-align: center;
+        margin: 20px;
+        color: rgb(9, 180, 9);
+      }
+      .featuredbrands {
+        text-align: center;
+        margin: 20px;
+      }
+    </style>
+
+    <!-- ----------------------------------------JavaScript for the search for specific brand feature----------------------------------------------- -->
+
+    <script>
+      function searchBrands(click) {
+        //prompt the user to enter the brand name
+        var brand = prompt("enter a valid brand");
+
+        if (brand.toLowerCase() == "rolex") {
+          //this line converts the brand to lowercase for case-insensitive compraision
+
+          window.location.href = "pages/product.html#rolexcontainer"; //the user is redirected to the Rolex section on the product page
+        } else if (brand.toLowerCase() == "audemarspiguet") {
+          window.location.href = "pages/product.html#audemarscontainer";
+        } else if (brand.toLowerCase() == "balncpain") {
+          window.location.href = "pages/product.html#balncpaincontainer";
+        } else if (brand.toLowerCase() == "breguet") {
+          window.location.href = "pages/product.html#breguetcontainer";
+        } else {
+          //alerts the user if the brand wasn't reconized
+          alert("Brand not found :(\n hint: Check the spellings!!!");
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tick & Track</title>
+    <link rel="stylesheet" href="./../css/style.css" />
+  </head>
+  <body>
+    <!-- this is the header part that shows the site's name and the logo -->
+    <div id="header">
+      <a style="text-decoration: none" href="./../index.html">
+        <img src="./../img/ticktracklogo.png" alt="logo" class="logo"
+      /></a>
+      <div class="headname">Tick & Track</div>
+      <div class="search">
+        <form>
+          <input type="text" placeholder="Search Watches" />
+        </form>
+      </div>
+    </div>
+    <!--------------------------------------------------------- this is the html tag for the navigation panel -------------------------------------->
+    <nav>
+      <ul class="navbar">
+        <li><a href="./../index.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="Research.html">Research</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <div class="socials">
+          <a href="https://www.instagram.com" target="_blank"
+            ><img src="./../img/socials/insta.png" alt="insta"
+          /></a>
+          <a href="https://www.youtube.com" target="_blank"
+            ><img src="./../img/socials/youtube.png" alt="youtube"
+          /></a>
+          <a href="https://www.twitter.com" target="_blank"
+            ><img src="./../img/socials/twiter.png" alt="twiter"
+          /></a>
+          <a href="https://www.facebook.com" target="_blank"
+            ><img src="./../img/socials/facebook.png" alt="facebook"
+          /></a>
+        </div>
+      </ul>
+    </nav>
+    <!-- -------------------------------------------------this is the start of the about us page------------------------------------------------ -->
+
+    <div class="aboutusall">
+      <h1>Meet the Team</h1>
+      <br />
+      <p>
+        Our site is always on Track at any Tick of time <br />This is all thanks
+        to our wonderful and hardworking team and the huge online community.
+      </p>
+    </div>
+    <hr color="grey" style="margin-bottom: 20px" />
+
+    <div class="maincontainer">
+      <!-- topsection (the 3 photos on the top)-->
+      <div class="picturesSection">
+        <div class="card">
+          <img src="./../img/Developers/Sudip.jpg" alt="" class="portrait" />
+          <h3>Sudip Baral</h3>
+          <p>
+            Sudip Baral is one of the member of our team. Turning designs into
+            reality through the power of code is his expertise. He is very
+            passionate about writing clean code that keeps our website ticking
+            like the Rolex.
+          </p>
+        </div>
+        <div class="card">
+          <img src="./../img/Developers/Akash.jpg" alt="" class="portrait" />
+          <h3>Akash Adhikari</h3>
+          <p id="adh">
+            Akash Adhikari is the leader of our team. No matter the problem
+            <strong>HE IS THE SOLUTION </strong> Whenever challenges arise, He
+            steps in to fix them, and lead the whole team to the right path.
+          </p>
+        </div>
+        <div class="card">
+          <img src="./../img/Developers/Ommani.jpg" alt="" class="portrait" />
+          <h3>Ommani Baral</h3>
+          <p>
+            Ommani Baral is also a member of our team, who brought ideas to life
+            and ensured our projects stay on track. From brainstroming concepts
+            to final touches, he is all about making every second count.
+          </p>
+        </div>
+      </div>
+      <!-- bottomSection (2 photos on the bottom)-->
+      <div class="picturesSection">
+        <div class="card">
+          <img src="./../img/Developers/Anuj.jpg" alt="" class="portrait" />
+          <h3>Anuj Shrestha</h3>
+          <p id="anuj">
+            Anuj Shrestha is another member of our team without whome the
+            project's design would be nothing. With his incredible eye for
+            detail, he focused on creating the best user-friendly designs.
+          </p>
+        </div>
+        <div class="card" id="bishal">
+          <img src="./../img/Developers/Bishal.jpg" alt="" class="portrait" />
+          <h3>Bishal Shapkota</h3>
+          <p id="anuj">
+            Bishal Shapkota is anoter member who tracks trends, snalyzes user
+            behavior an ensures our site stays ahead of the curve by delivering
+            what people want.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr color="grey" />
+
+    <!-- -----------------------------------------------------------html for the form ---------------------------------------------------- -->
+
+    <div class="formcontainer">
+      <form
+        class="aboutusform"
+        id="form"
+        name="webform"
+        onsubmit="validateForm(event)"
+      >
+        <div class="formheading">
+          <h2>We Would love to get your feedback</h2>
+        </div>
+        <div class="namefield">
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            class="forminput"
+          /><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            class="forminput"
+          /><br />
+          <textarea
+            name="message"
+            class="forminput"
+            style="color: rgb(255, 255, 255)"
+            placeholder="message Here"
+          ></textarea
+          ><br />
+        </div>
+        <div class="gender">
+          <h4>Gender:</h4>
+          <br />
+          Male:
+          <input
+            type="radio"
+            name="gender"
+            value="Male"
+            class="gender"
+            checked
+          />
+          Female:
+          <input type="radio" name="gender" value="Female" class="gender" />
+          <br />
+        </div>
+        <br />
+        <button type="submit" value="Submit Button">Submit</button>
+      </form>
+    </div>
+
+    <!-- ---------------------------------------------------------------THIS IS THE FOOTER ----------------------------------------------------- -->
+
+    <footer>
+      <table class="footermain" width="100%">
+        <tr class="tablehead">
+          <td>Payment Methods</td>
+          <td>location</td>
+          <td>contact</td>
+          <td>socialmedia</td>
+          <td>Sign in:</td>
+        </tr>
+        <tr>
+          <td class="footersec">
+            <ul>
+              <li>esewa</li>
+              <li>Khalti</li>
+              <li>blabla</li>
+            </ul>
+          </td>
+          <td class="footersec">
+            <ul>
+              <li>Pokhara</li>
+              <li>Kathmandu</li>
+              <li>chitwan</li>
+            </ul>
+          </td>
+          <td class="footersec">
+            <ul>
+              <li>061538302</li>
+              <li>9898</li>
+              <li>100</li>
+            </ul>
+          </td>
+          <td class="footersec">
+            <ul>
+              <li>Facebook</li>
+              <li>insta</li>
+              <li>linkedin</li>
+            </ul>
+          </td>
+          <td class="footersec">
+            <form>
+              <input type="text" , placeholder="Sigh In" />
+              <button class="footersubmit">Sign In</button>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </footer>
+    <hr color="grey" />
+    <div id="Copyrightsec">
+      <p style="text-align: center">
+        Copyright © 2025 Tick & Track. All Rights Reserved.
+      </p>
+    </div>
+
+    <!-- ----------------------------------------------------------internal css for the aboutus page -------------------------------------------------- -->
+
+    <style>
+      .aboutusform button {
+        background-color: #111111;
+        color: rgb(227, 227, 227);
+        height: 40px;
+        width: 100px;
+        border-radius: 50px;
+      }
+    </style>
+
+    <script>
+      function validateForm(event) {
+        event.preventDefault();
+        let form = document.getElementById("form");
+        var name = document.forms["webform"]["name"].value;
+        var email = document.forms["webform"]["email"].value;
+        var message = document.forms["webform"]["message"].value;
+        if (name === "" || email === "" || message === "") {
+          alert("please fill all the details");
+        } else if (!form.checkValidity()) {
+          alert("please enter a valid form details");
+        } else if (email.includes("@gmail.com")) {
+          alert("Thankyou for your feedback! :)");
+        }
+      }
+    </script>
+  </body>
+</html>

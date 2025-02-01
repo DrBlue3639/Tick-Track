@@ -1,0 +1,557 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* this is where the body starts */
+body {
+  color: #f9f9f9;
+  background-color: #000000;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+/* for the logo on the top left side of the display */
+.logo {
+  width: 75px;
+  height: auto;
+}
+#header {
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2d2a2b;
+  display: flex;
+  height: 60px;
+}
+
+.search input {
+  border-radius: 50px;
+  border: rgb(0, 0, 0) solid 4px;
+}
+
+.socials {
+  margin-left: 900px;
+}
+
+.socials img {
+  width: 20px;
+}
+
+.headname {
+  flex: 1;
+  font-size: 30px;
+  margin: 0;
+  color: rgb(200, 193, 193);
+  padding-left: 37%;
+}
+
+/* this is the style for the navigation bar of the whole webpage */
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 20px 0px;
+  margin-left: 20px;
+}
+.navbar li {
+  margin-right: 15px 10px;
+}
+nav li a {
+  text-decoration: none;
+  color: rgb(200, 193, 193);
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+/* hover for to get the transition effect when mouse is hovered over */
+nav li a:hover {
+  background-color: #2f2f2f;
+  transition: 1s;
+}
+
+.headerblock {
+  margin-top: 30px;
+  display: flex;
+}
+.headheading {
+  margin: 150px 50px;
+  padding-right: 100px;
+}
+
+#backgroundimg {
+  width: 100%;
+  height: 680px;
+  align-items: end;
+  justify-content: end;
+  display: flex;
+  margin-left: -350px;
+}
+
+#backgroundimg img {
+  width: 85%;
+}
+
+/* ----------------------------------------------CSS for the home page that describes all the pages -------------------------------------------- */
+.maindesc {
+  display: flex;
+}
+
+.leftdesc {
+  background-color: #101010;
+  padding: 100px;
+  border-radius: 50px;
+}
+.browsingbuttons {
+  width: 150px;
+  height: 50px;
+  margin-right: 40px;
+  border-radius: 15px;
+  color: rgb(215, 215, 215);
+  background-color: #181818;
+  margin-top: 30px;
+}
+.browsingbuttons:hover {
+  cursor: pointer;
+  background-color: #202020;
+  transition: 1s;
+}
+
+.rightdesc {
+  width: 685px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.rightdesc h3 {
+  padding: 40px;
+  padding-top: 100px;
+}
+
+/* -------------------------------------------------- CSS for featured companies section--------------------------------------------------------------------- */
+
+.companytable {
+  display: flex;
+  max-width: fit-content;
+}
+
+.companylogo {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+/* --------------Search for Brands button ---------- */
+
+.searchBrands {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  flex-direction: column;
+  background-color: rgb(40, 40, 40);
+  border-radius: 50px;
+  margin: 50px 100px;
+}
+
+#browseBrands {
+  background-color: rgb(25, 25, 25);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 25px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 500px;
+}
+
+#browseBrands:hover {
+  background-color: rgb(39, 39, 39);
+  cursor: pointer;
+}
+
+/* -----------------------------------------------the product section on the home page --------------------------------------------*/
+.productdisplay {
+  padding-top: 74px;
+}
+
+/*---------------------------------------------------- this is the CSS for the footer section ---------------------------------------------------*/
+
+.tablehead {
+  font-size: large;
+  justify-content: space-evenly;
+}
+.footermain {
+  background-color: black;
+  margin-top: 50px;
+  padding: 30px 20px;
+  border: white solid 1px;
+}
+.footermain ul {
+  text-decoration: none;
+  margin-top: 10px;
+  list-style: none;
+  font-size: larger;
+}
+.productheader {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  margin-right: 100px;
+}
+.productcontianer .productheader {
+  margin-top: -20px;
+  justify-content: space-evenly;
+}
+
+/* ---------------------------------------------------------------Product page css------------------------------------------------------------- */
+
+#producttable {
+  text-align: center;
+}
+#producttable h2 {
+  font-size: xx-large;
+  background-color: rgb(56, 56, 56);
+  padding: 0;
+  margin-inline: 100px;
+  border-radius: 50px;
+}
+
+#producttable .productcontianer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+#producttable .card {
+  width: 290px;
+  height: 450px;
+  border-radius: 25px;
+  margin: 15px 0;
+  background-color: #171717;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-right: 20px;
+}
+#producttable .card:hover {
+  background-color: rgb(20, 20, 20);
+  transition: 95ms;
+  margin-top: -2px;
+  box-shadow: 4px 2px 10px rgb(76, 76, 76);
+}
+
+#producttable .card .proname {
+  padding-left: 15px;
+  margin-top: -30px;
+  padding-bottom: 30px;
+  cursor: default;
+}
+
+#producttable .card .proname h5 {
+  padding-top: 7px;
+  color: white;
+  font-size: 17px;
+}
+
+#producttable .card .proname h4 {
+  padding-top: 7px;
+  font-size: 20px;
+  color: rgb(79, 124, 10);
+}
+
+.priceNrating{
+  display: flex;
+}
+.rating{
+  margin-left: 80px;
+}
+
+#producttable .card .proname Button {
+  background-color: #13dc8c;
+  border-radius: 50px;
+  width: 270px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#producttable .card img {
+  border-radius: 20px;
+  width: auto;
+  height: 300px;
+  padding-left: 50px;
+  padding-top: 45px;
+}
+
+/* --------------------------------------------------------------the about us section----------------------------------------------------------- */
+
+.aboutusall {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #101010;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 800px;
+  padding: 20px;
+}
+
+/* --------- image section -------- */
+.picturesSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+/* style for the image card */
+
+.card {
+  border: 2px solid green;
+  width: 400px;
+  height: 380px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-inline: 50px;
+  margin-top: 20px;
+  border-radius: 50px;
+  background-color: rgb(28, 28, 28);
+}
+.card:hover {
+  background-color: black;
+  width: 410px;
+  height: 390px;
+}
+.card h3 {
+  margin-top: 50px;
+}
+.card #adh {
+  margin-left: -90px;
+}
+
+.card #anuj {
+  margin-left: -90px;
+}
+
+.card #bishal {
+  margin-left: -50px;
+}
+.card p {
+  margin-top: 100px;
+  margin-left: -60px;
+}
+
+.portrait {
+  width: 100%;
+  height: auto;
+}
+
+.card img {
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  border-radius: 50px;
+}
+.picturesSection .card {
+  padding: 0;
+}
+
+/* ---------------------------------------------------------- CSS for the form section --------------------------------------------------------- */
+
+.formcontainer {
+  background-color: black;
+  padding: 40px;
+}
+
+.aboutusform {
+  margin-left: 25%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 520px;
+  width: 700px;
+  border: rgb(82, 82, 82) solid 2px;
+  background-color: #101010;
+  border-radius: 50px;
+  box-shadow: #2f2f2f;
+}
+
+.formheading h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.namefield input {
+  display: flex;
+  border-radius: 50px;
+  width: 350px;
+  height: 35px;
+  background-color: #252525;
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+}
+
+.namefield textarea {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.aboutusform textarea {
+  border-radius: 5px;
+  height: 220px;
+  width: 670px;
+  background-color: #252525;
+}
+
+/* --------------------------------------------------------------- CSS for the blog page ------------------------------------------------------ */
+
+.blog {
+  text-align: center;
+  display: inline;
+}
+
+.blog h3 {
+  font-size: xx-large;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  color: rgb(200, 193, 193);
+}
+
+.blog h4 {
+  padding-bottom: 20px;
+}
+
+.blog p {
+  margin-bottom: 15px;
+}
+
+.bloghr {
+  margin-bottom: 30px;
+}
+
+#photos {
+  margin-left: 10px;
+  height: 230px;
+  margin-top: -200px;
+  width: 400px;
+}
+
+.intro {
+  display: flex;
+  margin-inline: 500px;
+  justify-content: center;
+}
+
+main {
+  background-color: black;
+}
+
+.blog {
+  margin-top: 80px;
+}
+
+.video {
+  height: 250px;
+  margin-left: 1000px;
+  margin-top: -1000px;
+  width: 400px;
+}
+
+#question1 {
+  width: 65%;
+}
+
+#question2 {
+  width: 65%;
+}
+
+.positiveimg {
+  padding-bottom: 20px;
+}
+
+.negetiveimg {
+  width: 35%;
+}
+
+.conclusion {
+  display: flex;
+  justify-content: center;
+}
+
+.concluhead {
+  background-color: rgb(47, 47, 47);
+  border-radius: 25px;
+  padding: 20px;
+  margin-top: 40px;
+  width: 70%;
+  text-align: center;
+}
+
+#copyrightsec {
+  background-color: black;
+}
+
+/* -------------------------------------------------------------Research page css--------------------------------------------------------------- */
+
+.ResearchHeading {
+  text-align: center;
+  padding-top: 40px;
+  margin-inline: 500px;
+  margin-bottom: 20px;
+}
+
+.researchbox {
+  border: rgb(107, 107, 107) solid 1px;
+  height: 250px;
+  margin-inline: 40px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.researchbox img {
+  width: 1200px;
+  box-shadow: 2px 1px 10px rgb(57, 98, 66);
+}
+
+.refnav {
+  max-width: 100%;
+  height: auto;
+}
+
+.research_imagetext {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.research_imagetext a {
+  text-decoration: none;
+  color: white;
+}
+
+#researchfooter {
+  height: 400px;
+}
+
+#researchPro {
+  height: 650px;
+}
+
+#reference_blog {
+  height: 700px;
+}
